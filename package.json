@@ -1,5 +1,5 @@
 {
-	"name": "web",
+	"name": "react-redux-material-boilerplate",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -41,3 +41,4 @@
 	},
 	"proxy": "http://localhost:5000"
 }
+
