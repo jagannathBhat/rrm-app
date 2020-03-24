@@ -1,0 +1,8 @@
+body,
+html,
+#root {
+	cursor: default;
+	height: 100%;
+	margin: 0px;
+	width: 100%;
+}
