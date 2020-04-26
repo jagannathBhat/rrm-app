@@ -1,6 +1,6 @@
 {
 	"name": "rrm-app",
-	"version": "1.0.1",
+	"version": "1.0.4",
 	"description": "Boilerplate for making web apps with React, Redux and Material-UI.",
 	"main": "index.js",
 	"scripts": {
@@ -16,6 +16,9 @@
 		"url": "https://github.com/jagannathBhat/rrm-app/issues"
 	},
 	"homepage": "https://github.com/jagannathBhat/rrm-app#readme",
+	"bin": {
+		"rrm-app": "./index.js"
+	},
 	"dependencies": {
 		"chalk": "^4.0.0",
 		"copy-dir": "^1.2.0",
