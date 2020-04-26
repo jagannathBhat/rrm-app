@@ -1,6 +1,7 @@
 {
 	"name": "react-redux-material-boilerplate",
 	"version": "0.1.0",
+	"author": "Jagannath Bhat <jagannathbhatjb@gmail.com> (https://bhat.dev)",
 	"private": true,
 	"dependencies": {
 		"@material-ui/core": "^4.9.7",
@@ -42,4 +43,3 @@
 	},
 	"proxy": "http://localhost:5000"
 }
-
