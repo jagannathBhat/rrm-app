@@ -7,5 +7,5 @@ It's basically an app you would get with [create-react-app](https://create-react
 ## How to use
 
 ```bash
-npx rrm-app
+npx rrm-app [name-of-app]
 ```
