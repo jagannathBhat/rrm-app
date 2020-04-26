@@ -11,5 +11,7 @@ export const useStyles = makeStyles(theme => ({
 	},
 	root: {
 		borderRadius: '0px',
+		display: 'flex',
+		flex: 1,
 	},
 }))
