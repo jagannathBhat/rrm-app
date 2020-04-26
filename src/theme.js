@@ -1,16 +1,15 @@
 import { makeStyles } from '@material-ui/core'
 
-export const useStyles = makeStyles({
+export const useStyles = makeStyles(theme => ({
 	centerizer: {
 		alignItems: 'center',
 		display: 'flex',
+		flex: 1,
 		flexDirection: 'row',
-		height: '100%',
 		justifyContent: 'center',
 		textAlign: 'center',
-		width: '100%'
 	},
 	root: {
-		borderRadius: '0px'
-	}
-})
+		borderRadius: '0px',
+	},
+}))

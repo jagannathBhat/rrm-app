@@ -11,15 +11,17 @@ const App = () => {
 	const classes = useStyles()
 	return (
 		<Provider store={store}>
-			<Router>
-				<Switch>
-					<Route exact path='/'>
-						<Paper elevation={0} className={(classes.root, classes.centerizer)}>
-							<Typography variant='h1'>Title</Typography>
-						</Paper>
-					</Route>
-				</Switch>
-			</Router>
+			<Paper elevation={0} className={classes.root}>
+				<Router>
+					<Switch>
+						<Route exact path='/'>
+							<div className={classes.centerizer}>
+								<Typography variant='h1'>Title</Typography>
+							</div>
+						</Route>
+					</Switch>
+				</Router>
+			</Paper>
 		</Provider>
 	)
 }
