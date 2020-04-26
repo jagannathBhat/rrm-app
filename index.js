@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const chalk = require('chalk')
 const copydir = require('copy-dir')
 const execSync = require('child_process').execSync
